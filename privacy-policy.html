@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clipper – Privacy Policy</title>
+<style>
+  :root { --ink: #0e0e10; --paper: #ffffff; --muted: #55555c; --accent: #c99a00; }
+  @media (prefers-color-scheme: dark) { :root { --ink: #f2f2f2; --paper: #0e0e10; --muted: #a8a8b0; --accent: #ffd400; } }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin-top: 2rem; }
+  .meta { color: var(--muted); margin: 0 0 2rem; }
+  a { color: var(--accent); }
+  li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<main>
+<h1>Clipper – Privacy Policy</h1>
+<p class="meta">Effective date: October 18, 2026 · Operated by Rafael Chacón</p>
+
+<p>Clipper is a private, single-user command-line tool that the owner of the YouTube channel
+<a href="https://www.youtube.com/@clips4funsub">Clips4funSub</a> runs on their own computer to upload short clips to that channel.
+It is not distributed to the public and has no other users. This policy explains what data Clipper uses and how.</p>
+
+<h2>YouTube API Services</h2>
+<p>Clipper uses YouTube API Services. By using Clipper you agree to be bound by the
+<a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.
+Google's handling of data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>Data Clipper accesses</h2>
+<ul>
+  <li>Permission to upload videos to the authorizing account's YouTube channel (<code>youtube.upload</code>).</li>
+  <li>Read-only access to that same channel's own uploads (<code>youtube.readonly</code>), used only to check whether a clip was already uploaded so it is never uploaded twice.</li>
+</ul>
+<p>Clipper does not access data about any other user, channel, comment, subscriber or analytics.</p>
+
+<h2>Data Clipper stores</h2>
+<ul>
+  <li>The Google OAuth token, stored only on the owner's computer.</li>
+  <li>For each uploaded clip: the YouTube video ID, URL, privacy status and upload time, stored in a local file on the owner's computer.</li>
+</ul>
+
+<h2>How the data is used and shared</h2>
+<p>The data is used only to upload the owner's clips and to avoid duplicate uploads.
+It is not sold, shared with third parties, used for advertising, or sent anywhere other than Google's OAuth and YouTube API endpoints.
+Clipper uses no cookies, analytics or tracking.</p>
+
+<h2>Retention and deletion</h2>
+<p>Data stays on the owner's computer until the owner deletes it. You can revoke Clipper's access at any time from
+<a href="https://security.google.com/settings/security/permissions">Google security settings</a>.
+Deleting Clipper's local token and state files removes all data it stored.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the updated version will be published at this address with a new effective date.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:info@rafchn.com">info@rafchn.com</a></p>
+</main>
+</body>
+</html>
